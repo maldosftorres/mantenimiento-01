@@ -1,0 +1,29 @@
+# Composer dependencies
+/vendor/
+
+# User uploads and signatures
+/uploads/
+/signatures/
+
+# Temporary files and logs
+/temp/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# PDF outputs (if generated in root)
+*.pdf
+
+# Backup and temp files
+*~
+*.swp
+*.swo
+
+# Exclude sensitive config (uncomment if needed)
+# db_config.php
